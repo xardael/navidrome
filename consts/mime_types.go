@@ -18,6 +18,7 @@ var audioFormats = map[string]format{
 	".opus": {typ: "audio/ogg"},
 	".aac":  {typ: "audio/mp4"},
 	".alac": {typ: "audio/mp4", lossless: true},
+	".mp4":  {typ: "audio/mp4"},
 	".m4a":  {typ: "audio/mp4"},
 	".m4b":  {typ: "audio/mp4"},
 	".flac": {typ: "audio/flac", lossless: true},
